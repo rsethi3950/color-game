@@ -1,0 +1,67 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin: 0; 
+	font-weight: normal;
+	padding: 20px 0;
+	background: steelblue;
+	max-height: 100%;
+
+}
+.square{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25px;
+	transition: 0.6s;
+	
+}
+body{
+	background: #232323;
+	margin: 0;
+	font-family: "Montserrat";
+}
+#container{
+
+	max-width: 600px;
+	margin: 20px auto; 
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	color: steelblue;
+	font-weight: bold;
+	height: 100%;
+	letter-spacing: 1px;
+	transition-duration: 0.4s;
+
+}
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
+button:active{
+	border: none;
+	outline: none;
+}
+.selected{
+    background-color: steelblue;
+	color: white;	
+}
+#message{
+	display: inline-block;
+	width: 15%;
+}
+#btn{
+	text-align: center;
+	background-color: white;
+	height: 30px;
+}
+
+#colorDisplay{
+	font-size: 2em;
+}
